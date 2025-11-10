@@ -11,7 +11,8 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS so React app on different origin can call this API
 IMG_DIR = os.path.join("static", "images")
 os.makedirs(IMG_DIR, exist_ok=True)
-stripe.api_key = "sk_test_51SQYIqDSFdmXUPuARshdAMR8KQ6XUhI0ZWXsFRw9qu5De3svXv1sewkQzhKdcTA6oFcU5jj9GlBL0FRpL9nyP7ol00JnR5zMfr"  # Your Stripe test secret key
+stripe.api_key = "sk_test_51SQYIqDSFdmXUPuARshdAMR8KQ6XUhI0ZWXsFRw9qu5De3svXv1sewkQzhKdcTA6oFcU5jj9GlBL0FRpL9nyP7ol00JnR5zMfr"
+# Your Stripe test secret key
 
 
 @app.route('/')
