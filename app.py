@@ -8,7 +8,7 @@ import stripe
 
 
 app = Flask(__name__)
-CORS(app, origins=["https://vercelapp-page.vercel.app"])
+CORS(app, origins=["https://vercelapp-page-5gjdi3fxg-keshavs-projects-3f08dde2.vercel.app/"])
 IMG_DIR = os.path.join("static", "images")
 os.makedirs(IMG_DIR, exist_ok=True)
 stripe.api_key = "sk_test_51SQYIqDSFdmXUPuARshdAMR8KQ6XUhI0ZWXsFRw9qu5De3svXv1sewkQzhKdcTA6oFcU5jj9GlBL0FRpL9nyP7ol00JnR5zMfr"
